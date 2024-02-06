@@ -1,0 +1,59 @@
+.SPS1Mainbox1{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 100vh; */
+}
+.SPS1M1B1{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 60vh;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.SPS1M1B11{
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    border: 1px solid grey;
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+.SPS1M1B11Image1{
+    object-fit: cover;
+    width: 100%;
+}
+.SPS1M1B12{
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    border: 1px solid grey;
+    width: 40%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.SPS1M1B12Btn1{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+.SPS1M1B12Btn1:hover{
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 768px){
+
+}
+@media screen and (min-width: 0px) and (max-width: 426px){
+    
+}

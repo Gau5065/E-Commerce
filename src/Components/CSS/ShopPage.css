@@ -1,0 +1,183 @@
+.shopS1Mainbox1{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 80vh;
+    background-image: url(../../../public/Media/pic67.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopS1M1B1{
+    /* border: 2px solid red; */
+    /* width: 500px; */
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.shopS1M1B1Para1{
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+.shopS1M1B1Para2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.shopS2Mainbox1{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 100vh; */
+    padding: 20px 0px;
+}
+.shopS2M1B1{
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+.shopS2M1B11Box1{
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+}
+.shopS2M1B11Box1CatBtn1{
+    width: 90%;
+    margin: 5px 0px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.shopS2M1B11Box1CatBtn1:hover{
+    background-color: orange;
+}
+.shopS2M1B11{
+    border: 1px solid grey;
+    height: 100%;
+    width: 20%;
+    border-right: none
+}
+.shopS2M1B12{
+    border: 1px solid grey;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.pageCenter11 {
+    margin-top: 50px;
+}
+.shopS2M1B12::-webkit-scrollbar{
+    display: none;
+}
+.shopS2M1B12ProCard1{
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+}
+.shopS2M1B12ProCard1Img1{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    position: relative;
+}
+.shopS2M1B12ProCard1Img1:hover .shopS2M1B12ProCard1Img1HeartBtn1{
+    bottom: 20px;
+    transition: all 0.5s;
+}
+.shopS2M1B12ProCard1Img1:hover .shopS2M1B12ProCard1Img1CartBtn1{
+    bottom: 20px;
+    transition: all 0.7s;
+}
+.shopS2M1B12ProCard1Img1HeartBtn1{
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -100px;
+    left: 100px;
+    border-radius: 10px;
+    z-index: 2;
+}
+.shopS2M1B12ProCard1Img1HeartBtn1:hover{
+    background-color: orange;
+}
+.shopS2M1B12ProCard1Img1CartBtn1{
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -100px;
+    left: 170px;
+    border-radius: 10px;
+    z-index: 2;
+}
+.shopS2M1B12ProCard1Img1CartBtn1:hover{
+    background-color: orange;
+}
+.shopS2M1B12ProCard1Img11{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.shopS2M1B12ProCard1Img198{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.shopS2M1B12ProCard1DisBtn1{
+    border: none;
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.shopS2M1B12ProCard1Head1{
+    /* border: 2px solid red; */
+    margin: 0px;
+}
+.shopS2M1B12ProCard1Para1{
+    text-decoration: line-through;
+    font-size: 15px;
+}
+.shopS2M1B12ProCard1Para2{
+    font-weight: bold;
+    font-size: 20px;
+}

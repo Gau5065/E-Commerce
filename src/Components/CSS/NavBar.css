@@ -1,0 +1,264 @@
+.Nav1Mainbox1{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: none;
+    border-bottom: 1px solid grey;
+    z-index: 2;
+}
+.N1M1B3List1Li5{
+    position: relative;
+    color: black;
+}
+.N1M1B3List1Li5Btn1{
+    position: absolute;
+    top: 5px;
+    right: 2px;
+    height: 40px;
+    width: 40px;
+    background: none;
+}
+.CartMainbox1{
+    /* border: 2px solid red; */
+    width: 300px;
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    box-sizing: border-box;
+    padding: 5px;
+    z-index: 3;
+    background-color: black;
+    border-radius: 10px;
+    display: none;
+}
+.C1M1B1CartList{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 150px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.C1M1B1CartList::-webkit-scrollbar{
+    width: 10px;
+    display: none;
+}
+.C1M1B1{
+    /* border: 2px solid red; */
+    border: 1px solid grey;
+    /* border-radius: 20px; */
+    margin: 2px auto;
+    width: 100%;
+    height: 100px;
+    padding-left: 110px;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    color: white;
+    overflow: hidden;
+}
+.C1M1B1Closebtn1{
+    padding: 0;
+    height: 25px;
+    width: 25px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    color: white;
+}
+.C1M1B1Closebtn1:hover{
+    color: red;
+}
+.C1M1B1Imgbox1{
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    height: 95%;
+    width: 35%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    overflow: hidden;
+}
+.C1M1B1Imgbox1Img1{
+    width: 100%;
+}
+.C1M1B1Title{
+    font-weight: bold;
+}
+.C1M1B1Price{
+    font-size: 15px;
+}
+.C1M1B2{
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 200px; */
+}
+.C1M1B21{
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0px 20px;
+    padding-top: 5px;
+}
+.C1M1B22{
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 10px;
+    background-color: black;
+}
+.C1M1B22Btn1{
+    width: 90%;
+    margin: 5px auto;
+    margin-left: 15px;
+    border: 1px solid grey;
+    background-color: black;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    height: 40px;
+}
+.C1M1B22Btn1:hover{
+    color: white;
+}
+.C1M1B22Btn2{
+    width: 90%;
+    margin: 5px auto;
+    border: 1px solid grey;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    height: 40px;
+}
+.C1M1B22Btn2:hover{
+    color: white;
+    background-color: orange;
+}
+.C1M1B22Para1{
+    /* border: 2px solid red; */
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+.N1M1B1{
+    /* border: 2px solid red; */
+    width: 150px;
+    height: 100%;
+    background-image: url(../../../public/Media/pic1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.N1M1B2{
+    /* border: 2px solid red; */
+    /* width: 250px; */
+    height: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.N1M1B2List1{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.N1M1B2List1 li{
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.N1M1B2List1 li:hover{
+    color: orange;
+}
+.N1M1B3{
+    /* border: 2px solid red; */
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.N1M1B3List1{
+    display: flex;
+    list-style-type: none;
+}
+.N1M1B3List1 li{
+    padding: 0px 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.N1M1B3List1Li1{
+    display: none;
+}
+.N1M1B3List1Li4{
+    position: relative;
+    color: black;
+}
+.HeartBadge1{
+    font-size: 11px;
+    padding: 0;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+}
+.N1M1B3List1Li5{
+    position: relative;
+}
+.HeartBadge2{
+    font-size: 11px;
+    padding: 0;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 768px){
+    .N1M1B3List1Li1{
+        display: block;
+    }
+    .N1M1B2{
+        display: none;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 426px){
+    
+}

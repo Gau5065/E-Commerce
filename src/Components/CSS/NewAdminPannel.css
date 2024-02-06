@@ -1,0 +1,126 @@
+.newAdminMainbox1{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.newAdminM1Box1{
+    /* border: 2px solid red; */
+    width: 15%;
+    height: 100%;
+    padding-top: 50px;
+    background-color: #222d31;
+}
+.newAdminM1Box1Btn1{
+    width: 100%;
+    padding: 20px 0px;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: #222d31;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.newAdminM1Box1Btn1:hover{
+    color: orange;
+}
+.newAdminM1Box2{
+    /* border: 2px solid red; */
+    width: 85%;
+    height: 100%;
+    position: relative;
+    padding-top: 100px;
+    padding-left: 20px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.newAdminM1Box2::-webkit-scrollbar{
+    display: none;
+}
+.newAdminM1Box2Btn1{
+    border: none;
+    padding: 10px 20px;
+    background-color: #008548;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.newAdminM1Box2Btn1:hover{
+    color: orange;
+}
+.categoryTable1{
+    border: 1px solid black;
+}
+.categoryColumn1{
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.categoryColumn2{
+    border: 1px solid black;
+    width: 400px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.categoryColumn3{
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.tbodyColumn1{
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.EDBtn1{
+    font-size: 20px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.EDBtn1:hover{
+    color: red;
+}
+.newAdminMainbox2{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.164);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newAdminM2Box1{
+    /* border: 2px solid red; */
+    width: 500px;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white;
+    border: none;
+}
+.newAdminMainbox3{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newAdminM3Box1{
+    /* border: 2px solid red; */
+    width: 500px;
+    padding: 20px 0px;
+    background-color: white;
+    text-align: center;
+    border: none;
+}

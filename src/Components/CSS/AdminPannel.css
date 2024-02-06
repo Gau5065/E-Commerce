@@ -1,0 +1,191 @@
+.adminMainbox1{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d3557;
+}
+.adminM1B1{
+    /* border: 2px solid red; */
+    width: 15%;
+    height: 98%;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bde0fe;
+}
+.adminM1B1Btn11{
+    width: 200px;
+    height: 40px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: #d5bdaf;
+    color: black;
+}
+.adminM1B1Btn11Selected{
+    background-color: #fb8500;
+}
+.adminM1B1Btn11:hover{
+    background-color: #023047;
+    color: white;
+}
+.adminM1B2{
+    /* border: 2px solid red; */
+    width: 85%;
+    height: 98%;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #bde0fe;
+}
+.adminM1B2Box1{
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 400px;
+    margin: 30px auto;
+    border-radius: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    padding: 30px 0px;
+}
+.adminM1B2Box1::-webkit-scrollbar{
+    display: none;
+}
+.adminM1B2Box1Btn1{
+    width: 80%;
+    margin: 10px;
+    background-color: #023047;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.adminM1B2Box1Btn1:hover{
+    background-color: #bde0fe;
+    color: black;
+}
+.adminM1B2Box2{
+    /* border: 2px solid red; */
+    width: 80%;
+    /* height: 100px; */
+    padding: 10px;
+    margin: 30px auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+.adminM1B2Box2AddNewBtn1{
+    width: 80%;
+    background-color: orange;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.adminM1B2Box2AddNewBtn1:hover{
+    color: black;
+}
+.adminM1B2Box2AddNewBtn1:hover{
+    background-color: orange;
+}
+.adminMainbox2{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.603);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adminM1B2Box2Input1{
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 40px;
+}
+.adminM1B2Box2Btn1{
+    width: 30%;
+    height: 30px;
+    margin-bottom: 2px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #fb8500;
+}
+.adminM1B2Box2Btn1:hover{
+    color: black;
+}
+.adminM1B2Box2Btn2{
+    width: 30%;
+    height: 30px;
+    margin-bottom: 2px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #fb8500;
+}
+.adminM1B2Box2Btn2:hover{
+    color: black;
+}
+.adminM2B1{
+    /* border: 2px solid red; */
+    /* height: 200px; */
+    width: 600px;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.adminM2B1Input1{
+    width: 80%;
+    margin: 10px 0px;
+    text-align: center;
+    /* border: none; */
+    font-weight: bold;
+    height: 40px;
+}
+.adminM2B1Btn11{
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px 0px;
+    border: none;
+    background-color: #fb8500;
+    color: white;
+}
+.adminM2B1Btn11:hover{
+    color: black;
+}
+.adminM2B1Btn1{
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background-color: green;
+}
+.adminM2B1Btn1:hover{
+    background-color: red;
+}

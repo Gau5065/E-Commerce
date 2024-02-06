@@ -1,0 +1,164 @@
+.newAdminPMainbox1{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.newAdminPM1Box1{
+    /* border: 2px solid red; */
+    width: 15%;
+    height: 100%;
+    padding-top: 50px;
+    background-color: #222d31;
+}
+.newAdminPM1Box1Btn1{
+    width: 100%;
+    padding: 20px 0px;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: #222d31;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.newAdminPM1Box2{
+    /* border: 2px solid red; */
+    width: 85%;
+    height: 100%;
+    position: relative;
+    padding-top: 100px;
+    padding-left: 20px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.newAdminPM1Box2::-webkit-scrollbar{
+    display: none;
+}
+.newAdminPM1Box2Btn1{
+    border: none;
+    padding: 10px 20px;
+    background-color: #008548;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.newAdminPM1Box2Table1Column1{
+    border: 1px solid black;
+    width: 50px;
+    text-align: center;
+}
+.newAdminPM1Box2Table1Column2{
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+}
+.newAdminPM1Box2Table1Column3{
+    border: 1px solid black;
+    width: 250px;
+    text-align: center;
+}
+.newAdminPM1Box2Table1Column4{
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+}
+.newAdminPM1Box2Table1Column5{
+    border: 1px solid black;
+    width: 120px;
+    text-align: center;
+}
+.newAdminPM1Box2Table1Column6{
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+}
+.newAdminPM1Box2Table1Column7{
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+}
+.newAdminPM1Box2Table1Column8{
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+}
+.newAdminPM1Box2Icon1{
+    font-size: 20px;
+    cursor: pointer;
+}
+.newAdminPM1Box2Icon1:hover{
+    color: red;
+}
+.newAdminPMainbox2{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.267);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newAdminPM2Box1{
+    /* border: 2px solid red; */
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+.newAdminPMainbox3{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.308);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newAdminPM3Box1{
+    /* border: 2px solid red; */
+    width: 500px;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+.custom-pagination {
+    /* Add your custom styles for the pagination container */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination .page-item {
+    /* Add your custom styles for each pagination item */
+    margin: 0 5px;
+}
+
+.pagination .page-link {
+    /* Add your custom styles for the pagination links */
+    color: #333;
+    text-decoration: none;
+    border-radius: 0%;
+}
+
+.pagination .page-link:hover {
+    /* Add your custom styles for the pagination links on hover */
+    color: #007bff;
+}
+
+.pagination .page-item.active .page-link {
+    /* Add your custom styles for the active page link */
+    background-color: orange;
+    color: #fff;
+    border: none;
+}
+.pagination{
+    background-color: white;
+}

@@ -1,0 +1,233 @@
+.adminPMainbox1{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d3557;
+}
+.adminPM1B1{
+    /* border: 2px solid red; */
+    width: 15%;
+    height: 98%;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bde0fe;
+}
+.adminPM1B1Btn11{
+    width: 200px;
+    height: 40px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: #d5bdaf;
+    color: black;
+}
+.adminPM1B1Btn11:hover{
+    background-color: #023047;
+    color: white;
+}
+.adminPM1B1Btn11Selected{
+    background-color: #fb8500;
+}
+.adminPM1B2{
+    /* border: 2px solid red; */
+    width: 85%;
+    height: 98%;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #bde0fe;
+}
+.adminPM1B2Mainbox1{
+    /* border: 2px solid red; */
+    width: 95%;
+    margin: 30px auto;
+    height: 90%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.adminPM1B2Mainbox1::-webkit-scrollbar{
+    display: none;
+}
+.addNewProduct{
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    bottom: 100px;
+    right: 70px;
+    border: none;
+    background-color: #023047;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+
+}
+.addNewProduct:hover{
+    background-color: orange;
+}
+.pageCenter{
+    /* background-color: #fb8500; */
+    position: absolute;
+    bottom: 50px;
+    left: 42%;
+}
+#previousPage{
+    background-color: #023047;
+    border: none;
+    color: white;
+}
+#nextPage{
+    background-color: #023047;
+    border: none;
+    color: white;
+}
+.pagination{
+    /* border: 2px solid red; */
+    padding: 5px 30px;
+    background-color: #bde0fe;
+    border-radius: 10px;
+}
+.page-link{
+    /* background-color: aqua; */
+    color: orange;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+.adminPM1B2M1B1{
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 380px;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+}
+.adminPM1B2M1B1CloseBtn1{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+.adminPM1B2M1B1CloseBtn1:hover{
+    background-color: red;
+}
+.adminPM1B2M1B1Image{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 80%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.adminPM1B2M1B1ImageTag{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.adminPM1B2M1B1Para1{
+    /* border: 2px solid red; */
+}
+.adminPM1B2M1B1Para2{
+    /* border: 2px solid red; */
+}
+.adminPM1B2M1B1Para21{
+    text-decoration: line-through;
+    font-size: 12px;
+}
+.adminPM1B2M1B1Para22{
+    font-weight: bold;
+    font-size: 17px;
+}
+.AddProductModal{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.603);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AddProductModalBox1{
+    /* border: 2px solid red; */
+    width: 500px;
+    padding: 20px 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.AddProductModalBox1Inp1{
+    width: 100%;
+    margin: 10px 0px;
+    text-align: center;
+    font-weight: bold;
+    height: 40px;
+}
+.AddProduct-Select{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 30px;
+}
+.AddProductModalBox1Btn1{
+    width: 200px;
+    height: 30px;
+    border: none;
+    margin: 10px auto;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.AddProductModalBox1Btn1:hover{
+    color: black;
+}
+.EditProductModal{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.651);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.EditProductModalBox1{
+    /* border: 2px solid red; */
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+}
